@@ -4,7 +4,7 @@
 
 1.1 打开区块链
 
-[Maxjiang03/图片1.png at main · Maxjiang03/Maxjiang03](https://github.com/Maxjiang03/Maxjiang03/blob/main/图片1.png)
+![image](https://github.com/Maxjiang03/Maxjiang03/blob/main/图片1.png)
 
 [Maxjiang03/图片2.png at main · Maxjiang03/Maxjiang03](https://github.com/Maxjiang03/Maxjiang03/blob/main/图片2.png)
 
