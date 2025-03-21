@@ -1,0 +1,83 @@
+warning|2023-10-20 02:28:07.380132|[NETWORK][Session]doRead error,endpoint=127.0.0.1:30301,message=short read
+info|2023-10-20 02:28:07.380166|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:30301
+warning|2023-10-20 02:28:07.380176|[NETWORK][Session][drop] closing remote 127.0.0.1:30301,reason=Low-level TCP communication error.,endpoint=127.0.0.1:30301
+warning|2023-10-20 02:28:07.383603|[P2P][Service] disconnect error P2PSession,nodeID=604bffed...,endpoint=127.0.0.1:30301,errorCode=3,what=Disconnect
+warning|2023-10-20 02:28:07.383625|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+info|2023-10-20 02:28:07.387243|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2023-10-20 02:28:07.387436|[P2P][Service] heartBeat,connected count=1
+error|2023-10-20 02:28:07.387443|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:30300
+info|2023-10-20 02:28:07.387446|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:30300
+warning|2023-10-20 02:28:07.387452|[NETWORK][Session][drop] closing remote 127.0.0.1:30300,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:30300
+error|2023-10-20 02:28:07.387509|[NETWORK][Session]Session inactived
+warning|2023-10-20 02:28:07.387516|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+warning|2023-10-20 02:28:07.387524|[NETWORK][Session]doRead error,endpoint=127.0.0.1:30300,message=Operation canceled
+warning|2023-10-20 02:28:07.387529|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+info|2023-10-20 02:28:07.388238|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+error|2023-10-20 02:28:07.389697|[NETWORK][Host]Get ca basic failed
+warning|2023-10-20 02:28:07.424053|[P2P][Service] disconnect error P2PSession,nodeID=e7ccba2c...,endpoint=127.0.0.1:30300,errorCode=3,what=Disconnect
+warning|2023-10-20 02:28:07.424086|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+info|2023-10-20 02:28:07.428147|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:57392
+info|2023-10-20 02:28:07.428218|[P2P][Service] Connection established,nodeID=604bffed...,endpoint=127.0.0.1:30301
+info|2023-10-20 02:28:07.428230|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30301,local endpoint=127.0.0.1:57392,nodeID=604bffed...
+info|2023-10-20 02:28:17.387988|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2023-10-20 02:28:17.388033|[P2P][Service] heartBeat,connected count=1
+info|2023-10-20 02:28:17.388077|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+error|2023-10-20 02:28:17.389991|[NETWORK][Host]Get ca basic failed
+info|2023-10-20 02:28:17.393951|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:38072
+info|2023-10-20 02:28:17.393994|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30300,local endpoint=127.0.0.1:38072,nodeID=e7ccba2c...
+info|2023-10-20 02:28:17.394056|[P2P][Service] Connection established,nodeID=e7ccba2c...,endpoint=127.0.0.1:30300
+info|2023-10-20 02:28:17.394676|[NETWORK][Session]Received topic: [2	_block_notify_1	_block_notify_2] from e7ccba2c03cbae1d94cb4eee8113f99e91e1c766c0bcb9ea229120a9c5522250ab2b6c7d7531e3484b24ca9e3ad045341ea84d9c2aa70b87a00dca51bc889f2a
+info|2023-10-20 02:28:27.388481|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:28:37.388713|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:28:47.389353|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:28:57.389455|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:29:07.389932|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:29:17.390502|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:29:27.390731|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:29:37.391224|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:29:47.391436|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:29:57.391636|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:30:07.391898|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:30:17.392101|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:30:27.392511|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:30:37.392818|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:30:47.393439|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:30:57.393664|[P2P][Service] heartBeat,connected count=2
+info|2023-10-20 02:30:58.815411|[LEDGER]stop sealer,groupID=1
+info|2023-10-20 02:30:58.815453|[CONSENSUS][SEALER]Stop sealer module...
+info|2023-10-20 02:30:58.820679|[CONSENSUS][ConsensusEngine][Stop ConsensusEngineBase]
+info|2023-10-20 02:30:58.823016|[CONSENSUS][ConsensusEngine]ConsensusEngineBase stopped
+info|2023-10-20 02:30:58.823060|[LEDGER]sealer stopped. stop sync,groupID=1
+info|2023-10-20 02:30:58.824022|[g:1] [SYNC][id:7b5d067e...]SyncMsgEngine stopped
+info|2023-10-20 02:30:58.876546|[GossipBlockStatus]stop GossipBlockStatus succ
+info|2023-10-20 02:30:59.390184|[SYNC][id:7b5d067e...][g:1]SyncMaster stopped
+info|2023-10-20 02:30:59.390220|[LEDGER]sync stopped. stop event filter manager,groupID=1
+info|2023-10-20 02:30:59.396959|[EVENT][EventLogFilterManager]stop
+info|2023-10-20 02:30:59.396992|[LEDGER]event filter manager stopped. stop tx pool,groupID=1
+info|2023-10-20 02:30:59.397748|[LEDGER]removeNetworkStatHandlerByGroupID and removeGroupBandwidthLimiter for service,groupID=1
+info|2023-10-20 02:30:59.397761|[CHANNEL]removeSDKAllowListByGroupId,groupId=1
+info|2023-10-20 02:30:59.397789|[INITIALIZER]ledgerInitializer stopped
+info|2023-10-20 02:31:00.398917|[INITIALIZER]ChannelRPCHttpServer deleted.
+info|2023-10-20 02:31:00.399582|[INITIALIZER]JsonrpcHttpServer deleted.
+info|2023-10-20 02:31:00.399610|[INITIALIZER]RPCInitializer stopped
+info|2023-10-20 02:31:00.399643|[NETWORK][Host]Host exit
+info|2023-10-20 02:31:00.400999|[INITIALIZER]P2PInitializer stopped
+info|2023-10-20 02:31:00.401034|[LEDGER]stop sealer,groupID=1
+info|2023-10-20 02:31:00.401040|[LEDGER]sealer stopped. stop sync,groupID=1
+info|2023-10-20 02:31:00.401046|[g:1] [SYNC][id:7b5d067e...]SyncMsgEngine stopped
+info|2023-10-20 02:31:00.401053|[GossipBlockStatus]GossipBlockStatus already stopped
+info|2023-10-20 02:31:00.401057|[SYNC][id:7b5d067e...][g:1]SyncMaster stopped
+info|2023-10-20 02:31:00.401061|[LEDGER]sync stopped. stop event filter manager,groupID=1
+info|2023-10-20 02:31:00.401064|[LEDGER]event filter manager stopped. stop tx pool,groupID=1
+info|2023-10-20 02:31:00.401069|[LEDGER]removeNetworkStatHandlerByGroupID and removeGroupBandwidthLimiter for service,groupID=1
+info|2023-10-20 02:31:00.401076|[g:1][STORAGE][CachedStorage]Stopping flushStorage thread
+info|2023-10-20 02:31:01.337437|[g:1][STORAGE][CachedStorage]flushStorage thread stopped.
+info|2023-10-20 02:31:01.337485|[DBINITIALIZER] storage stopped
+info|2023-10-20 02:31:01.344472|[g:1] [SYNC][id:7b5d067e...]SyncMsgEngine stopped
+info|2023-10-20 02:31:01.344508|[GossipBlockStatus]GossipBlockStatus already stopped
+info|2023-10-20 02:31:01.344513|[SYNC][id:7b5d067e...][g:1]SyncMaster stopped
+info|2023-10-20 02:31:01.344563|[g:1] [SYNC][id:7b5d067e...]SyncMsgEngine stopped

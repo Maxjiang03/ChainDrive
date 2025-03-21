@@ -1,0 +1,456 @@
+info|2023-10-19 23:07:06.188109|[INITIALIZER][initGlobalConfig],enableCompress=true,compatibilityVersion=2.9.1,versionNumber=34144512,enableStat=false,chainId=1,useSMCrypto=false
+info|2023-10-19 23:07:06.189645|[INITIALIZER][SecureInitializer]loading privateKey
+info|2023-10-19 23:07:06.263607|[INITIALIZER][SecureInitializer]get pub of node,nodeID=7b5d067e9619d42719e81066db908fc87cb862e37eb961fcad50e65e616e2365cbcc2ed4a0ddb11f3bfc9503193010bca51285876733d8f00f59cff09330d2d3
+info|2023-10-19 23:07:06.264583|[INITIALIZER][SecureInitializer]use user certificate,file=conf//node.crt
+info|2023-10-19 23:07:06.265213|[INITIALIZER][SecureInitializer]use ca certificate,file=conf//ca.crt
+info|2023-10-19 23:07:06.265381|[INITIALIZER][SecureInitializer]use ca,file=conf//
+info|2023-10-19 23:07:06.265399|[INITIALIZER][SecureInitializer][initChannelCertConfig]enable rsa cert for channel ,conf//channel_cert/ certs will be used for channel ssl,dataPath=conf/
+info|2023-10-19 23:07:06.270165|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2023-10-19 23:07:06.270534|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2023-10-19 23:07:06.270597|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30302
+info|2023-10-19 23:07:06.270619|[P2P][Service] heartBeat,connected count=0
+info|2023-10-19 23:07:06.270657|[INITIALIZER][RPCInitializer],network_security.check_cert_issuer=true
+info|2023-10-19 23:07:06.270777|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30302
+info|2023-10-19 23:07:06.271203|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+info|2023-10-19 23:07:06.271368|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+info|2023-10-19 23:07:06.271491|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30302
+info|2023-10-19 23:07:06.271575|[NETWORK][Host]P2P Recv Connect, From=127.0.0.1:39532
+info|2023-10-19 23:07:06.271620|[NETWORK][Host]P2P StartAccept,Host=0.0.0.0:30302
+info|2023-10-19 23:07:06.272910|[CHANNEL][ChannelServer::run],threadPoolSize=8
+info|2023-10-19 23:07:06.273147|[CHANNEL]ChannelRPCServer started
+info|2023-10-19 23:07:06.273176|[INITIALIZER][RPCInitializer: ChannelRPCHttpServer started.],disableDynamicGroup=false,threadSize=8
+info|2023-10-19 23:07:06.273181|[INITIALIZER][LedgerInitializer]initConfig
+info|2023-10-19 23:07:06.273197|[LedgerInitializer],groupConfigPath=conf/
+error|2023-10-19 23:07:06.274477|[NETWORK][Host]Get ca basic failed
+info|2023-10-19 23:07:06.275393|[INITIALIZER][initSingleLedger] [GroupId], LedgerConstructor:  1,configFileName=conf/group.1.genesis,dataDir=data/
+info|2023-10-19 23:07:06.275452|[g:1][LedgerParam][parseGenesisConfig]initConsensusConfig/initStorageConfig/initTxConfig,configFile=conf/group.1.genesis
+info|2023-10-19 23:07:06.275464|[g:1][LedgerParam][initConsensusConfig],type=pbft,consensusTimeout=3,maxTxNum=1000,txGasLimit=300000000
+info|2023-10-19 23:07:06.275475|[g:1][LedgerParam][parsePublicKeyListOfSection],sectionName=consensus,it.first=e7ccba2c03cbae1d94cb4eee8113f99e91e1c766c0bcb9ea229120a9c5522250ab2b6c7d7531e3484b24ca9e3ad045341ea84d9c2aa70b87a00dca51bc889f2a
+info|2023-10-19 23:07:06.275482|[g:1][LedgerParam][parsePublicKeyListOfSection],sectionName=consensus,it.first=604bffeddf78823cac97d34ec4f7e39634296124f3a0bc3cee189c41ac4d1197e086bc06a537256c634b4b9073a3adae60d768c701031c68536a6ad2119fd7cc
+info|2023-10-19 23:07:06.275508|[g:1][LedgerParam][parsePublicKeyListOfSection],totalPubKeySize=2
+info|2023-10-19 23:07:06.275530|[g:1][LedgerParam][max_block_range],maxBlockRange=0,maxBlockPerProcess=3
+info|2023-10-19 23:07:06.275535|[g:1][LedgerParam][parseGenesisConfig],timestamp=1697091680000
+info|2023-10-19 23:07:06.275541|[g:1][LedgerParam]setEVMFlags,enableFreeStorageVMSchedule=false,evmFlags=0
+info|2023-10-19 23:07:06.275549|[g:1][LedgerParam]store evmFlag,evmFlag=0
+info|2023-10-19 23:07:06.275553|[g:1][LedgerParam]store consensus time,consensusTimeout=3
+info|2023-10-19 23:07:06.275559|[g:1][LedgerParam][initMark],genesisMark=1-604bffeddf78823cac97d34ec4f7e39634296124f3a0bc3cee189c41ac4d1197e086bc06a537256c634b4b9073a3adae60d768c701031c68536a6ad2119fd7cc,e7ccba2c03cbae1d94cb4eee8113f99e91e1c766c0bcb9ea229120a9c5522250ab2b6c7d7531e3484b24ca9e3ad045341ea84d9c2aa70b87a00dca51bc889f2a,-pbft-storage-0-1000-300000000-3
+info|2023-10-19 23:07:06.275562|[g:1][LedgerParam][initIniConfig]initTxPoolConfig/initSyncConfig/initTxExecuteConfig,configFile=conf/group.1.ini
+info|2023-10-19 23:07:06.275941|[g:1][LedgerParam][initStorageConfig],stateType=storage,storageDB=rocksdb,storagePath=data//group1/block/RocksDB,baseDir=data//group1,dbtype=mysql,dbip=127.0.0.1,dbport=3306,dbcharset=utf8mb4,initconnections=15,maxconnections=50,scrollThreshold=2000
+info|2023-10-19 23:07:06.275950|[g:1][LedgerParam][initTxPoolConfig],txPoolLimit=150000,memorySizeLimit(MB)=512,notifyWorkerNum=2,txsExpirationTime(ms)=600000
+info|2023-10-19 23:07:06.275953|[g:1][LedgerParam][initSyncConfig],idleWaitMs=200
+info|2023-10-19 23:07:06.275957|[g:1][LedgerParam][initSyncConfig],enableSendTxsByTree=true,enableSendBlockStatusByTree=true
+info|2023-10-19 23:07:06.275960|[g:1][LedgerParam][initSyncConfig],gossipInterval=1000
+info|2023-10-19 23:07:06.275964|[g:1][LedgerParam][initSyncConfig],enableSendBlockStatusByTree=true,gossipInterval=1000,gossipPeers=3,syncTreeWidth=3,maxQueueSizeForBlockSync=536870912,txsStatusGossipMaxPeers=5
+info|2023-10-19 23:07:06.275967|[g:1][LedgerParam][InitTxExecuteConfig],enableParallel=true
+info|2023-10-19 23:07:06.275981|[g:1][LedgerParam][initConsensusIniConfig],maxTTL=2,minBlockGenerationTime=500,enablDynamicBlockSize=true,blockSizeIncreaseRatio=0.5,enableTTLOptimize=true,enablePrepareWithTxsHash=true
+info|2023-10-19 23:07:06.276003|[g:1][LedgerParam][initRPBFTConsensusIniConfig],broadcastPrepareByTree=true,prepareStatusBroadcastPercent=33,maxRequestMissedTxsWaitTime=100,maxRequestPrepareWaitTime=100
+info|2023-10-19 23:07:06.276007|[g:1][LedgerParam][initFlowControlConfig],maxQPS=9223372036854775807,outGoingBandwidth(Bytes)=9223372036854775807
+info|2023-10-19 23:07:06.276010|[g:1][LedgerParam]parseSDKAllowList,sdkAllowList=[],enableSDKAllowListControl=false
+info|2023-10-19 23:07:06.276035|[g:1][LEDGER][initLedger][DBInitializer]
+info|2023-10-19 23:07:06.276038|[g:1][LEDGER]setSDKAllowList,groupId=1,sdkAllowListSize=0
+info|2023-10-19 23:07:06.276040|[g:1][CHANNEL]registerSDKAllowListByGroupId,groupId=1,size=0
+info|2023-10-19 23:07:06.276042|[g:1][CHANNEL]Disable group-level sdk permission control for sdk allowlist is empty
+info|2023-10-19 23:07:06.276048|[g:1][DBINITIALIZER] [initStorageDB]
+info|2023-10-19 23:07:06.276050|[g:1][DBINITIALIZER] [initRocksDBStorage]
+info|2023-10-19 23:07:06.276301|[g:1][ROCKSDB]open rocksDB handler,path=data//group1/block/RocksDB
+error|2023-10-19 23:07:06.277822|[NETWORK][Host]Get ca basic failed
+error|2023-10-19 23:07:06.280822|[NETWORK][Host]Get ca basic failed
+info|2023-10-19 23:07:06.283150|[NETWORK][Host]handshakeServer succ,remote endpoint=127.0.0.1:39532
+info|2023-10-19 23:07:06.283220|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:39532,local endpoint=127.0.0.1:30302,nodeID=7b5d067e...
+error|2023-10-19 23:07:06.284832|[NETWORK][Host]Get ca basic failed
+info|2023-10-19 23:07:06.287947|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:39532
+info|2023-10-19 23:07:06.288004|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30302,local endpoint=127.0.0.1:39532,nodeID=7b5d067e...
+info|2023-10-19 23:07:06.288083|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:56698
+info|2023-10-19 23:07:06.288117|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30300,local endpoint=127.0.0.1:56698,nodeID=e7ccba2c...
+info|2023-10-19 23:07:06.289179|[P2P][Service] Connection established,nodeID=e7ccba2c...,endpoint=127.0.0.1:30300
+info|2023-10-19 23:07:06.293865|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:40886
+info|2023-10-19 23:07:06.293936|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30301,local endpoint=127.0.0.1:40886,nodeID=604bffed...
+info|2023-10-19 23:07:06.294115|[P2P][Service] Connection established,nodeID=604bffed...,endpoint=127.0.0.1:30301
+info|2023-10-19 23:07:06.318778|[g:1][g:1][STORAGE][CachedStorage]Init flushStorage thread
+info|2023-10-19 23:07:06.319435|[g:1][DBINITIALIZER] [init CachedStorage],maxCapacity=32,maxForwardBlock=10
+info|2023-10-19 23:07:06.319473|[g:1][LEDGER][initLedger][initBlockChain]
+info|2023-10-19 23:07:06.320236|[g:1][LEDGER]set enableHexBlock to be false,version=34144512
+info|2023-10-19 23:07:06.320266|[g:1][BLOCKCHAIN][#checkAndBuildGenesisBlock],shouldBuild=false
+info|2023-10-19 23:07:06.321566|[g:1][BLOCKCHAIN][#checkAndBuildGenesisBlock]Already have the 0th block, 0th groupMark is equal to file groupMark.
+info|2023-10-19 23:07:06.321581|[g:1][LEDGER][initLedger]initBlockChain SUCC
+info|2023-10-19 23:07:06.321644|[g:1][DBINITIALIZER] [createStateFactory],type=storage
+info|2023-10-19 23:07:06.321658|[g:1][DBINITIALIZER] createStorageState SUCC
+info|2023-10-19 23:07:06.321661|[g:1][DBINITIALIZER] [createStateFactory SUCC]
+info|2023-10-19 23:07:06.321665|[g:1][DBINITIALIZER] createExecutiveContext...
+info|2023-10-19 23:07:06.321687|[g:1][LEDGER]createGasMetric,vmFlagType=0
+info|2023-10-19 23:07:06.321690|[g:1][LEDGER]createGasMetric
+info|2023-10-19 23:07:06.321694|[g:1][DBINITIALIZER] create precompiledGasFactory and precompiledResultFactory
+info|2023-10-19 23:07:06.321697|[g:1][DBINITIALIZER] createExecutiveContext SUCC
+info|2023-10-19 23:07:06.321700|[g:1][DBINITIALIZER] [setSyncNumForCachedStorage],syncNum=0
+info|2023-10-19 23:07:06.321704|[g:1][LEDGER][initNetworkBandWidthLimiter: outGoingBandwidthLimit has been disabled],groupId=1
+info|2023-10-19 23:07:06.321706|[g:1][LEDGER][QPSLimit has been disabled],groupId=1
+info|2023-10-19 23:07:06.321709|[g:1][LEDGER][initLedger][initBlockVerifier]
+info|2023-10-19 23:07:06.321712|[g:1][LEDGER][initLedger][initBlockVerifier SUCC],evmFlags=0
+info|2023-10-19 23:07:06.321714|[g:1][LEDGER][initLedger][initTxPool],txPoolLimit=150000
+info|2023-10-19 23:07:06.322483|[g:1][LEDGER][initLedger]initTxPool SUCC
+info|2023-10-19 23:07:06.322515|[g:1][LEDGER][initLedger][initSync],idleWaitMs=200,gossipInterval=1000,gossipPeers=3
+info|2023-10-19 23:07:06.322520|[g:1][LEDGER]Init sync master,enableSendBlockStatusByTree=true,enableSendTxsByTree=true
+info|2023-10-19 23:07:06.324316|[g:1][LEDGER][initLedger]initSync SUCC
+info|2023-10-19 23:07:06.324381|[g:1][LEDGER][initLedger][consensusInitFactory]
+info|2023-10-19 23:07:06.324406|[g:1][LEDGER][initLedger][createPBFTSealer]
+info|2023-10-19 23:07:06.324428|[g:1][LEDGER][initLedger][createPBFTSealer],baseDir=data//group1,Protocol=65544
+info|2023-10-19 23:07:06.324771|[g:1][LEDGER][initLedger]createPBFTSealer for PBFT or rPBFT,consensusType=pbft
+info|2023-10-19 23:07:06.324800|[g:1][LEDGER]createConsensusEngine: create PBFTEngine
+info|2023-10-19 23:07:06.324820|[g:1][CONSENSUS][PBFT]Register handler for PBFTEngine
+info|2023-10-19 23:07:06.326532|[g:1][CONSENSUS][PBFT]setMinBlockGenerationTime,minBlockGenerationTime=500,consensusTime=1000
+info|2023-10-19 23:07:06.326560|[g:1][LEDGER][initEventLogFilterManager]initEventLogFilterManager SUCC
+info|2023-10-19 23:07:06.326575|[LedgerInitializer init group succ],groupID=1
+info|2023-10-19 23:07:06.326720|[SafeHttpServer::StartListening]use default epoll
+info|2023-10-19 23:07:06.328323|[INITIALIZER][RPCInitializer JsonrpcHttpServer started],jsonrpc_IP=127.0.0.1,jsonrpc_listen_port=8547,jsonrpc_thread_count=8,ipv6=false,disableDynamicGroup=false
+info|2023-10-19 23:07:06.328370|[g:1][LEDGER]startAll...
+info|2023-10-19 23:07:06.329434|[g:1][GossipBlockStatus]start GossipBlockStatus succ
+info|2023-10-19 23:07:06.329454|[g:1][CONSENSUS][ConsensusEngine][Start ConsensusEngineBase]
+info|2023-10-19 23:07:06.330096|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=0,sealerIdx=0,hash=77b9c10b...,next=1,tx=0,nodeIdx=65535
+info|2023-10-19 23:07:06.330399|[g:1][ROCKSDB]open rocksDB handler,path=data//group1/pbftMsgBackup/RocksDB
+info|2023-10-19 23:07:06.348471|[g:1][CONSENSUS][PBFT][PBFT init env successfully]
+info|2023-10-19 23:07:06.348503|[g:1][CONSENSUS][PBFT][Start PBFTEngine...]
+info|2023-10-19 23:07:06.348516|[g:1][CONSENSUS][SEALER][Start sealer module]
+info|2023-10-19 23:07:06.348742|[g:1][CONSENSUS][PBFT]^^^^^^^^Report,num=0,sealerIdx=0,hash=77b9c10b...,next=1,tx=0,nodeIdx=65535
+info|2023-10-19 23:07:06.349589|[g:1][EVENT][EventLogFilterManager]start,m_maxBlockRange=0,m_maxBlockPerLoopFilter=3
+info|2023-10-19 23:07:16.271039|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:07:26.271730|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:07:31.292623|[NETWORK][Session]Received topic: [2	_block_notify_1	_block_notify_2] from e7ccba2c03cbae1d94cb4eee8113f99e91e1c766c0bcb9ea229120a9c5522250ab2b6c7d7531e3484b24ca9e3ad045341ea84d9c2aa70b87a00dca51bc889f2a
+info|2023-10-19 23:07:36.272215|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:07:46.272758|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:07:56.272963|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:08:06.273469|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:08:16.273749|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:08:26.274102|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:08:36.274363|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:08:46.274606|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:08:56.274995|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:09:06.275222|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:09:16.276386|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:09:26.276670|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:09:36.277392|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:09:46.277714|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:09:56.277936|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:10:06.278517|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:10:16.278730|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:10:26.279012|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:10:36.279228|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:10:46.279832|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:10:56.280081|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:11:06.280302|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:11:16.280808|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:11:26.281169|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:11:36.281699|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:11:46.282012|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:11:56.282483|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:12:06.283049|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:12:16.283649|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:12:26.283915|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:12:36.284256|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:12:46.284756|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:12:56.284946|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:13:06.285415|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:13:16.285925|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:13:26.286205|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:13:36.286814|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:13:46.287479|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:13:56.287729|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:14:06.287912|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:14:16.288340|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:14:26.288606|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:14:36.289139|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:14:46.289715|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:14:56.290130|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:15:06.290235|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:15:16.290746|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:15:26.291164|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:15:36.291429|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:15:46.291716|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:15:56.292173|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:16:06.292569|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:16:16.292878|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:16:26.293265|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:16:36.293423|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:16:46.293887|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:16:56.294071|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:17:06.294288|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:17:16.294844|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:17:26.295107|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:17:36.295344|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:17:46.295883|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:17:56.296515|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:18:06.296768|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:18:16.296898|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:18:26.297241|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:18:36.297401|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:18:46.297841|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:18:56.298324|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:19:06.298801|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:19:16.299200|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:19:26.299692|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:19:36.300136|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:19:46.300577|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:19:56.300891|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:20:06.301149|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:20:16.301468|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:20:26.302192|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:20:36.302410|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:20:46.303150|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:20:56.303354|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:21:06.304082|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:21:16.304274|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:21:26.304503|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:21:36.304807|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:21:46.305051|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:21:56.305338|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:22:06.305595|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:22:16.306137|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:22:26.306543|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:22:36.307066|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:22:46.307430|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:22:56.307796|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:23:06.308163|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:23:16.308628|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:23:26.309078|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:23:36.309205|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:23:46.309776|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:23:56.310298|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:24:06.310869|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:24:16.311116|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:24:26.311467|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:24:36.311874|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:24:46.312099|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:24:56.312692|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:25:06.313062|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:25:16.313649|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:25:26.314177|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:25:36.314622|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:25:46.314817|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:25:56.315245|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:26:06.315828|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:26:16.316259|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:26:26.316621|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:26:36.317256|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:26:46.317855|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:26:56.318357|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:27:06.318720|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:27:16.319257|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:27:26.319816|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:27:36.320290|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:27:46.320707|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:27:56.320944|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:28:06.321458|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:28:16.322015|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:28:26.322583|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:28:36.322793|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:28:46.323303|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:28:56.323524|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:29:06.324091|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:29:16.324277|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:29:26.324681|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:29:36.325322|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:29:46.325633|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:29:56.326177|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:30:06.326779|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:30:16.327432|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:30:26.327554|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:30:36.327884|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:30:46.328094|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:30:56.328404|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:31:06.328783|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:31:16.329731|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:31:26.330089|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:31:36.330434|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:31:46.331047|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:31:56.331558|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:32:06.331961|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:32:16.332374|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:32:26.332839|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:32:36.333114|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:32:46.333380|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:32:56.334030|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:33:06.334355|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:33:16.334547|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:33:26.335230|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:33:36.335378|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:33:46.335762|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:33:56.336213|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:34:06.336500|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:34:16.336831|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:34:26.337368|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:34:36.337948|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:34:46.338277|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:34:56.338888|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:35:06.339302|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:35:16.339706|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:35:26.340191|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:35:36.340479|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:35:46.341097|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:35:56.341322|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:36:06.341677|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:36:16.342089|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:36:26.342668|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:36:36.343240|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:36:46.343961|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:36:56.344525|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:37:06.344937|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:37:16.345392|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:37:26.345678|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:37:36.346480|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:37:46.346646|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:37:56.346862|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:38:06.347008|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:38:16.347701|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:38:26.348003|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:38:36.348476|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:38:46.348878|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:38:56.349371|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:39:06.349576|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:39:16.349886|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:39:26.350412|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:39:36.350657|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:39:46.350963|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:39:56.351497|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:40:06.352255|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:40:16.352788|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:40:26.353295|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:40:36.353717|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:40:46.354336|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:40:56.354814|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:41:06.354931|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:41:16.355541|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:41:26.356132|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:41:36.356806|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:41:46.357048|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:41:56.357488|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:42:06.357858|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:42:16.358045|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:42:26.358218|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:42:36.358836|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:42:46.359053|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:42:56.359764|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:43:06.360506|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:43:16.360705|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:43:26.361164|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:43:36.361443|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:43:46.361997|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:43:56.362194|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:44:06.362410|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:44:16.362744|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:44:26.363361|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:44:36.363771|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:44:46.364195|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:44:56.364774|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:45:06.365312|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:45:16.365558|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:45:26.366021|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:45:36.366229|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:45:46.366455|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:45:56.366929|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:46:06.367161|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:46:16.367733|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:46:26.368422|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:46:36.368858|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:46:46.369382|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:46:56.369544|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:47:08.896592|[P2P][Service] heartBeat,connected count=2
+warning|2023-10-19 23:48:39.506630|[NETWORK][Session]doRead error,endpoint=127.0.0.1:30301,message=short read
+info|2023-10-19 23:48:39.506645|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:30301
+warning|2023-10-19 23:48:39.506668|[NETWORK][Session][drop] closing remote 127.0.0.1:30301,reason=Low-level TCP communication error.,endpoint=127.0.0.1:30301
+warning|2023-10-19 23:48:39.506712|[P2P][Service] disconnect error P2PSession,nodeID=604bffed...,endpoint=127.0.0.1:30301,errorCode=3,what=Disconnect
+error|2023-10-19 23:48:39.506789|[NETWORK][Session]Session inactived
+error|2023-10-19 23:48:39.506794|[NETWORK][Session]Session inactived
+warning|2023-10-19 23:48:39.506746|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+warning|2023-10-19 23:48:39.506797|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+info|2023-10-19 23:48:39.521002|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30301
+info|2023-10-19 23:48:39.521082|[P2P][Service] heartBeat,connected count=1
+error|2023-10-19 23:48:39.521086|[NETWORK][Session]Idle connection, disconnect ,endpoint=127.0.0.1:30300
+info|2023-10-19 23:48:39.521089|[NETWORK][Session]drop, call and erase all callbackFunc in this session!,endpoint=127.0.0.1:30300
+warning|2023-10-19 23:48:39.521095|[NETWORK][Session][drop] closing remote 127.0.0.1:30300,reason=(Idle connection for no network io happens during 5s time intervals.),endpoint=127.0.0.1:30300
+warning|2023-10-19 23:48:39.521127|[P2P][Service] disconnect error P2PSession,nodeID=e7ccba2c...,endpoint=127.0.0.1:30300,errorCode=3,what=Disconnect
+error|2023-10-19 23:48:39.521148|[NETWORK][Session]Session inactived
+warning|2023-10-19 23:48:39.521157|[P2P][Service] onDisconnect,errorCode=3,what=Dynamic exception type: dev::network::NetworkException
+std::exception::what: Disconnect
+
+info|2023-10-19 23:48:39.521231|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30301
+warning|2023-10-19 23:48:39.521239|[NETWORK][Session][drop] shutdown failed ,errorValue=9,message=Bad file descriptor
+error|2023-10-19 23:48:39.522142|[NETWORK][Host]Get ca basic failed
+info|2023-10-19 23:48:39.525914|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:46076
+info|2023-10-19 23:48:39.525948|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30301,local endpoint=127.0.0.1:46076,nodeID=604bffed...
+info|2023-10-19 23:48:39.526014|[P2P][Service] Connection established,nodeID=604bffed...,endpoint=127.0.0.1:30301
+info|2023-10-19 23:48:49.521611|[NETWORK][Host]Connecting to node,endpoint=127.0.0.1:30300
+info|2023-10-19 23:48:49.521752|[P2P][Service] heartBeat,connected count=1
+info|2023-10-19 23:48:49.522197|[NETWORK][ASIO]asyncResolveConnect,endpoint=127.0.0.1:30300
+error|2023-10-19 23:48:49.522946|[NETWORK][Host]Get ca basic failed
+info|2023-10-19 23:48:49.526463|[NETWORK][Host]handshakeClient succ,local endpoint=127.0.0.1:41836
+info|2023-10-19 23:48:49.526499|[NETWORK][Host]startPeerSession, Remote=127.0.0.1:30300,local endpoint=127.0.0.1:41836,nodeID=e7ccba2c...
+info|2023-10-19 23:48:49.526532|[P2P][Service] Connection established,nodeID=e7ccba2c...,endpoint=127.0.0.1:30300
+info|2023-10-19 23:48:49.526901|[NETWORK][Session]Received topic: [2	_block_notify_1	_block_notify_2] from e7ccba2c03cbae1d94cb4eee8113f99e91e1c766c0bcb9ea229120a9c5522250ab2b6c7d7531e3484b24ca9e3ad045341ea84d9c2aa70b87a00dca51bc889f2a
+info|2023-10-19 23:48:59.522174|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:49:09.522440|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:49:19.523070|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:49:29.523359|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:49:39.523570|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:49:49.524232|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:49:59.524530|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:50:09.525197|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:50:19.525684|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:50:29.526174|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:50:39.526845|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:50:49.527298|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:50:59.527837|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:51:09.528151|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:51:19.529154|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:51:29.529293|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:51:39.529876|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:51:49.530191|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:51:59.530781|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:52:09.530965|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:52:19.531594|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:52:29.532082|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:52:39.532884|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:52:49.533149|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:52:59.533535|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:53:09.534035|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:53:19.534698|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:53:29.535154|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:53:39.535557|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:53:49.536218|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:53:59.536860|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:54:09.537034|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:54:19.537635|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:54:29.538031|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:54:39.538745|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:54:49.539351|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:54:59.539779|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:55:09.540198|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:55:19.540840|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:55:29.541628|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:55:39.541779|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:55:49.542170|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:55:59.542563|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:56:09.543091|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:56:19.543606|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:56:29.544237|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:56:39.544642|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:56:49.545298|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:56:59.545943|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:57:09.546805|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:57:19.547077|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:57:29.547584|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:57:39.548019|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:57:49.548100|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:57:59.548348|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:58:09.548861|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:58:19.549535|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:58:29.550117|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:58:39.550353|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:58:49.550694|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:58:59.551424|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:59:09.551990|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:59:19.552174|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:59:29.552405|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:59:39.552828|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:59:49.553043|[P2P][Service] heartBeat,connected count=2
+info|2023-10-19 23:59:59.553335|[P2P][Service] heartBeat,connected count=2

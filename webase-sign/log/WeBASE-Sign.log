@@ -1,0 +1,83 @@
+2023-10-27 00:00:40.860 [background-preinit] INFO  Version() - HV000001: Hibernate Validator 6.2.5.Final
+2023-10-27 00:00:40.973 [main] INFO  Application() - Starting Application using Java 11.0.19 on ubuntu with PID 3244 (/root/webase-deploy/webase-sign/apps/WeBASE-Sign.jar started by root in /root/webase-deploy/webase-sign)
+2023-10-27 00:00:40.980 [main] INFO  Application() - No active profile set, falling back to 1 default profile: "default"
+2023-10-27 00:00:44.028 [main] INFO  TomcatWebServer() - Tomcat initialized with port(s): 5004 (http)
+2023-10-27 00:00:44.374 [main] INFO  ServletWebServerApplicationContext() - Root WebApplicationContext: initialization completed in 3255 ms
+2023-10-27 00:00:45.534 [main] INFO  HikariDataSource() - HikariPool-1 - Starting...
+2023-10-27 00:00:46.646 [main] INFO  HikariDataSource() - HikariPool-1 - Start completed.
+2023-10-27 00:00:47.844 [main] INFO  PropertySourcedRequestMappingHandlerMapping() - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-10-27 00:00:52.010 [main] INFO  TomcatWebServer() - Tomcat started on port(s): 5004 (http) with context path '/WeBASE-Sign'
+2023-10-27 00:00:52.011 [main] INFO  DocumentationPluginsBootstrapper() - Context refreshed
+2023-10-27 00:00:52.033 [main] INFO  DocumentationPluginsBootstrapper() - Found 1 custom documentation plugin(s)
+2023-10-27 00:00:52.164 [main] INFO  ApiListingReferenceScanner() - Scanning for api listing references
+2023-10-27 00:00:52.702 [main] INFO  Application() - Started Application in 12.458 seconds (JVM running for 14.32)
+2023-10-27 00:00:52.709 [main] INFO  Application() - main run success...
+2023-10-27 00:01:26.157 [http-nio-5004-exec-1] INFO  DispatcherServlet() - Initializing Servlet 'dispatcherServlet'
+2023-10-27 00:01:26.163 [http-nio-5004-exec-1] INFO  DispatcherServlet() - Completed initialization in 5 ms
+2023-10-27 00:01:42.578 [http-nio-5004-exec-2] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:01:42.582 [http-nio-5004-exec-2] INFO  UserService() - start findBySignUserId. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:01:42.600 [http-nio-5004-exec-2] INFO  AesUtils() - getDefaultAesCipherPattern aes cipher pattern: AES/CBC/PKCS5Padding
+2023-10-27 00:01:42.600 [http-nio-5004-exec-2] INFO  UserService() - end findBySignUserId. userId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:01:42.677 [http-nio-5004-exec-2] INFO  SignService() - start sign. startTime:1698390102677
+2023-10-27 00:01:42.707 [http-nio-5004-exec-2] INFO  SignService() - end sign duration:30
+2023-10-27 00:01:42.707 [http-nio-5004-exec-2] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:14:01.488 [http-nio-5004-exec-4] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:14:01.519 [http-nio-5004-exec-4] INFO  SignService() - start sign. startTime:1698390841519
+2023-10-27 00:14:01.550 [http-nio-5004-exec-4] INFO  SignService() - end sign duration:30
+2023-10-27 00:14:01.550 [http-nio-5004-exec-4] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:14:08.749 [http-nio-5004-exec-5] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:14:08.774 [http-nio-5004-exec-5] INFO  SignService() - start sign. startTime:1698390848774
+2023-10-27 00:14:08.799 [http-nio-5004-exec-5] INFO  SignService() - end sign duration:25
+2023-10-27 00:14:08.799 [http-nio-5004-exec-5] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:14:16.055 [http-nio-5004-exec-6] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:14:16.072 [http-nio-5004-exec-6] INFO  SignService() - start sign. startTime:1698390856072
+2023-10-27 00:14:16.091 [http-nio-5004-exec-6] INFO  SignService() - end sign duration:18
+2023-10-27 00:14:16.092 [http-nio-5004-exec-6] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:14:41.159 [http-nio-5004-exec-7] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:14:41.172 [http-nio-5004-exec-7] INFO  SignService() - start sign. startTime:1698390881172
+2023-10-27 00:14:41.202 [http-nio-5004-exec-7] INFO  SignService() - end sign duration:29
+2023-10-27 00:14:41.202 [http-nio-5004-exec-7] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:14:53.945 [http-nio-5004-exec-8] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:14:53.970 [http-nio-5004-exec-8] INFO  SignService() - start sign. startTime:1698390893970
+2023-10-27 00:14:54.004 [http-nio-5004-exec-8] INFO  SignService() - end sign duration:34
+2023-10-27 00:14:54.005 [http-nio-5004-exec-8] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:03.360 [http-nio-5004-exec-9] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:03.382 [http-nio-5004-exec-9] INFO  SignService() - start sign. startTime:1698390903382
+2023-10-27 00:15:03.410 [http-nio-5004-exec-9] INFO  SignService() - end sign duration:27
+2023-10-27 00:15:03.410 [http-nio-5004-exec-9] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:06.103 [http-nio-5004-exec-10] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:06.125 [http-nio-5004-exec-10] INFO  SignService() - start sign. startTime:1698390906125
+2023-10-27 00:15:06.158 [http-nio-5004-exec-10] INFO  SignService() - end sign duration:32
+2023-10-27 00:15:06.158 [http-nio-5004-exec-10] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:08.738 [http-nio-5004-exec-1] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:08.760 [http-nio-5004-exec-1] INFO  SignService() - start sign. startTime:1698390908760
+2023-10-27 00:15:08.806 [http-nio-5004-exec-1] INFO  SignService() - end sign duration:46
+2023-10-27 00:15:08.806 [http-nio-5004-exec-1] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:10.870 [http-nio-5004-exec-2] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:10.889 [http-nio-5004-exec-2] INFO  SignService() - start sign. startTime:1698390910889
+2023-10-27 00:15:10.929 [http-nio-5004-exec-2] INFO  SignService() - end sign duration:40
+2023-10-27 00:15:10.929 [http-nio-5004-exec-2] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:21.740 [http-nio-5004-exec-3] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:21.765 [http-nio-5004-exec-3] INFO  SignService() - start sign. startTime:1698390921765
+2023-10-27 00:15:21.793 [http-nio-5004-exec-3] INFO  SignService() - end sign duration:28
+2023-10-27 00:15:21.793 [http-nio-5004-exec-3] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:25.097 [http-nio-5004-exec-4] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:25.116 [http-nio-5004-exec-4] INFO  SignService() - start sign. startTime:1698390925116
+2023-10-27 00:15:25.147 [http-nio-5004-exec-4] INFO  SignService() - end sign duration:31
+2023-10-27 00:15:25.147 [http-nio-5004-exec-4] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:27.714 [http-nio-5004-exec-5] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:27.733 [http-nio-5004-exec-5] INFO  SignService() - start sign. startTime:1698390927733
+2023-10-27 00:15:27.757 [http-nio-5004-exec-5] INFO  SignService() - end sign duration:24
+2023-10-27 00:15:27.757 [http-nio-5004-exec-5] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:31.017 [http-nio-5004-exec-6] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:31.036 [http-nio-5004-exec-6] INFO  SignService() - start sign. startTime:1698390931036
+2023-10-27 00:15:31.057 [http-nio-5004-exec-6] INFO  SignService() - end sign duration:20
+2023-10-27 00:15:31.058 [http-nio-5004-exec-6] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:35.046 [http-nio-5004-exec-7] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:35.063 [http-nio-5004-exec-7] INFO  SignService() - start sign. startTime:1698390935063
+2023-10-27 00:15:35.089 [http-nio-5004-exec-7] INFO  SignService() - end sign duration:26
+2023-10-27 00:15:35.089 [http-nio-5004-exec-7] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:38.565 [http-nio-5004-exec-8] INFO  SignService() - start sign. signUserId:22e7067142174e50afd286fc3fcfc930
+2023-10-27 00:15:38.590 [http-nio-5004-exec-8] INFO  SignService() - start sign. startTime:1698390938590
+2023-10-27 00:15:38.608 [http-nio-5004-exec-8] INFO  SignService() - end sign duration:18
+2023-10-27 00:15:38.608 [http-nio-5004-exec-8] INFO  SignService() - end sign. signUserId:22e7067142174e50afd286fc3fcfc930
